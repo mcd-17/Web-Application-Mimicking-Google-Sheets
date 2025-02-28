@@ -52,11 +52,11 @@ A lightweight web-based spreadsheet application inspired by Google Sheets, built
 
 
 Clone the repository:
-git clone https://github.com/your-username/web-sheets.git
+                    git clone https://github.com/your-username/web-sheets.git
 
 Open in browser:
-cd web-sheets
-open index.html
+                    cd web-sheets
+                    open index.html
 
 
 **Usage**
