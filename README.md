@@ -1,11 +1,11 @@
-**Web Sheets by Darshana M Chigari**
+# Web Application Mimicking Google Sheets 
 
 A lightweight web-based spreadsheet application inspired by Google Sheets, built with HTML, CSS, and JavaScript.
 
 ![image](https://github.com/user-attachments/assets/fc197d19-947b-43b3-ac63-d13f765cd92c)
 
 
-**Features**
+# Features
 
 **Excel-like Interface**
 
@@ -48,7 +48,7 @@ A lightweight web-based spreadsheet application inspired by Google Sheets, built
           Roboto font for clean typography
 
 
-**Installation**
+# Installation
 
 
 Clone the repository:
@@ -59,7 +59,7 @@ Open in browser:
                     open index.html
 
 
-**Usage**
+# Usage
 
 **Basic Navigation**
 
