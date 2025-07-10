@@ -1,101 +1,41 @@
-# Web Application Mimicking Google Sheets 
+# **Web Application Mimicking Google Sheets**
 
-A lightweight web-based spreadsheet application inspired by Google Sheets, built with HTML, CSS, and JavaScript.
-
+A lightweight, responsive spreadsheet web app inspired by Google Sheets, developed using **HTML**, **CSS**, and **JavaScript**. Includes formula support, formatting tools, and multi-sheet functionality.
 ![image](https://github.com/user-attachments/assets/fc197d19-947b-43b3-ac63-d13f765cd92c)
 
+## **Features**
 
-# Features
+### **Excel-like Interface**
+- Menu bar (File, Edit, View, etc.)
+- Toolbar with formatting actions
+- Formula bar (fx) with function selector
+- Multi-sheet tab support
 
-**Excel-like Interface**
+### **Core Functionality**
+- Cell editing & navigation
+- Basic formulas via `Formula.js`
+- Text formatting: font, size, bold/italic/strikethrough
+- Alignment & color options
+- Number formatting (currency, percentage)
+- Merge cells
 
-          Menu bar with standard options (File, Edit, View, etc.)
-          
-          Toolbar with formatting tools and quick actions
-          
-          Formula bar with function selector (fx)
-          
-          Multiple sheet tabs support
+### **Additional Features**
+- Undo/Redo
+- Print support
+- Format painter tool
+- Material Design icons & Roboto font
+- Responsive layout
 
-**Core Functionality**
+## **Installation**
 
-          Cell editing and navigation
-          
-          Basic formula support (via Formula.js)
-          
-          Text formatting (font family, size, bold/italic/strikethrough)
-          
-          Cell alignment options
-          
-          Color pickers for text and background
-          
-          Number formatting (currency, percentage)
-          
-          Merge cells functionality
+```bash
 
-**Additional Features**
+git clone https://github.com/mcd-17/Web-Application-Mimicking-Google-Sheets.git
 
-          Undo/redo operations
-          
-          Print button
-          
-          Format painter tool
-          
-          Responsive design
-          
-          Material Design icons integration
-          
-          Roboto font for clean typography
+cd Web-Application-Mimicking-Google-Sheets
+
+open index.html
 
 
-# Installation
-
-
-Clone the repository:
-                    git clone https://github.com/your-username/web-sheets.git
-
-Open in browser:
-                    cd web-sheets
-                    open index.html
-
-
-# Usage
-
-**Basic Navigation**
-
-      Click cells to edit content
-      
-      Use formula bar for complex calculations
-      
-      Switch between sheets using bottom tabs
-
-**Formatting Tools**
-
-      Select text and use toolbar buttons for formatting
-      
-      Choose fonts/sizes from dropdowns
-      
-      Use color pickers for text/fill colors
-      
-      Apply number formatting (currency/percentage)
-
-**Formulas**
-
-      Start with = in formula bar
-      
-      Use function selector for available operations
-      
-      Reference cells using A1 notation
-
-
-**File Structure**
-
-
-    web-sheets/
-    ├── index.html        # Main application structure
-    ├── main.css          # Styling for all components
-    ├── Formula.js        # Formula parsing and calculation logic
-    ├── Spreadsheet.js    # Spreadsheet grid and interaction handling
-    └── README.md         # Documentation
 
     
